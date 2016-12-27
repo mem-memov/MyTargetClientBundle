@@ -11,6 +11,9 @@
         <service id="dsl.my_target_client.type.scalar" class="Dsl\MyTarget\Mapper\Type\ScalarType">
             <tag name="dsl.my_target_client.type" type="scalar"/>
         </service>
+        <service id="dsl.my_target_client.type.nullable_scalar" class="Dsl\MyTarget\Mapper\Type\NullableScalarType">
+            <tag name="dsl.my_target_client.type" type="nullable_scalar"/>
+        </service>
         <service id="dsl.my_target_client.type.date" class="Dsl\MyTarget\Mapper\Type\DateTimeType">
             <tag name="dsl.my_target_client.type" type="date"/>
         </service>
